@@ -6,6 +6,14 @@
 #
 # for time series
 library(fpp)
+
+# for Graphing
+library(mlbench)
+library(ggplot2)
+library(magrittr)
+library(dplyr)
+library(VIM)
+
 #
 set.seed(1)
 options(stringsAsFactors=FALSE)
